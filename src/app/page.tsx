@@ -10,8 +10,17 @@ export default function Home() {
           <div className="text-center">
             {/* Logo */}
             <div className="mb-8 flex justify-center">
-              <div className="w-24 h-24 bg-green-600 rounded-2xl flex items-center justify-center">
-                <span className="text-white text-3xl">🏠</span>
+              <div className="flex items-center space-x-3">
+                <div className="w-24 h-24 relative">
+                  <div className="w-full h-full bg-green-600 rounded-2xl flex items-center justify-center">
+                    <div className="w-16 h-16 bg-white rounded-xl flex items-center justify-center">
+                      <div className="w-12 h-12 bg-green-600 rounded-lg flex items-center justify-center">
+                        <span className="text-white text-2xl">🏠</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="text-3xl font-bold text-green-600">CareVacay</div>
               </div>
             </div>
             
