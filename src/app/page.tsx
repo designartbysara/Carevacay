@@ -4,7 +4,7 @@ import { mockProperties } from "@/data/mockData";
 import CareVacayLogo from "@/components/CareVacayLogo";
 
 export default function Home() {
-  // CareVacay - NDIS Accommodation Platform
+  // CareVacay - NDIS Accommodation Platform - Production Ready
   const featuredProperties = mockProperties.slice(0, 3);
 
   return (
