@@ -11,6 +11,8 @@ const nextConfig: NextConfig = {
     // your project has type errors.
     ignoreBuildErrors: true,
   },
+  // Ensure proper routing for Vercel
+  trailingSlash: false,
 };
 
 export default nextConfig;
