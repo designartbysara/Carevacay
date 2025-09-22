@@ -8,10 +8,6 @@ const nextConfig: NextConfig = {
     ignoreBuildErrors: true,
   },
   trailingSlash: false,
-  output: 'standalone',
-  images: {
-    unoptimized: true
-  }
 };
 
 export default nextConfig;
