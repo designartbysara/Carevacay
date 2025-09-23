@@ -8,6 +8,7 @@ const nextConfig: NextConfig = {
     ignoreBuildErrors: true,
   },
   trailingSlash: false,
+  outputFileTracingRoot: __dirname,
 };
 
 export default nextConfig;
